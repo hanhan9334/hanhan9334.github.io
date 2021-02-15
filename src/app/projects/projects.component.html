@@ -1,53 +1,145 @@
 <section>
-    <div class="container">
+    <div style="width: 100%;">
         <div class="row">
-            <div class="col-sm-4">
-                <div class="p-profile">2</div>
-            </div>
-            <div class="col-sm-8">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <video src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-3">
+                <div class="container-nav">
+                    <div class="sticky-nav-wrapper">
+                        <nav class="sticky-nav" ngStickyNav stickyClass="sticky-box-shadow" ngStickyNav>
+                            <ul>
+                                <div class="side-nav list-group list-group-flush sticky-top">
+                                    <a href="#java" class="list-group-item list-group-item-action bg-light">Java</a>
+                                    <a href="#web" class="list-group-item list-group-item-action bg-light">Web</a>
+                                    <a href="#python" class="list-group-item list-group-item-action bg-light">Python</a>
+                                    <a href="#c#" class="list-group-item list-group-item-action bg-light">C#</a>
+                                    <a href="#c#" class="list-group-item list-group-item-action bg-light">PL/SQL</a>
                                 </div>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-9" style="padding-right: 7%;">
+
+                <div class="card-group" id="java">
+                    <div class="card">
+                        <img src="assets/images/bird.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Fllapy Bird</h5>
+                            <p class="card-text">This is a game made with package AWT in Java.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://github.com/hanhan9334/flappy_bird">Check
+                                            Repo</a></button></small>
+                            </p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
+
+                    <div class="card">
+                        <img src="assets/images/pong.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Pong</h5>
+                            <p class="card-text">This is a game made with package AWT in Java.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://github.com/hanhan9334/game-pong">Check
+                                            Repo</a></button></small>
+                            </p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content.</p>
-                            </div>
+                </div>
+
+
+                <div class="card-group" id="web">
+                    <div class="card">
+                        <img src="assets/images/to-do-list.png" class="card-img-top" alt="to-do-list">
+                        <div class="card-body">
+                            <h5 class="card-title">To Do List</h5>
+                            <p class="card-text">This is a webpage made with Express and Ejs. Users can create, edit and
+                                delete items on their list.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://damp-tor-44854.herokuapp.com/">Check it</a></button></small>
+                            </p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
+
+                    <div class="card">
+                        <img src="assets/images/task-manager.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Task Manager</h5>
+                            <p class="card-text">This is a website made in MEAN stack. It has functions of login, signup
+                                and manipulation on tasks. </p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://task-manager-angular-3aa26.firebaseapp.com/login">Check
+                                            it</a></button></small>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card-group" id="python">
+                    <div class="card">
+                        <img src="assets/images/alien.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alien Invader</h5>
+                            <p class="card-text">This is a game made with Pygame library in Python.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://github.com/hanhan9334/Alien_Invasion_Shooting_Game">Check
+                                            Repo</a></button></small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/images/random-walk.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Random Walk</h5>
+                            <p class="card-text">This is a visualization on a random walk observation made with
+                                matplotlib in Python.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://github.com/hanhan9334/random_walking_visulization">Check
+                                            Repo</a></button></small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-group" id="c#">
+                    <div class="card">
+                        <img src="assets/images/publish.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Notificaton Publishing System</h5>
+                            <p class="card-text">This is a Windows Form App made in C#.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://github.com/hanhan9334/Subscribtion-management-app">Check
+                                            Repo</a></button></small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/images/sql.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Random Walk</h5>
+                            <p class="card-text">This is a Oracle SQL dabase with sequences, indexes, triggers and
+                                procedures.</p>
+                            <p class="card-text card-text-mt10"><small class="text-muted"><button type="button"
+                                        class="btn btn-warning"><a class="btn-project" target="_blank"
+                                            href="https://github.com/hanhan9334/db_ecommerce">Check
+                                            Repo</a></button></small>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
+
 </section>
