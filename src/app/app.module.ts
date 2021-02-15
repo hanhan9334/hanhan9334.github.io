@@ -14,7 +14,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 
-import { StickyNavModule } from 'ng2-sticky-nav';
 
 @NgModule({
   declarations: [
@@ -30,8 +29,7 @@ import { StickyNavModule } from 'ng2-sticky-nav';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    NgbModule,
-    StickyNavModule
+    NgbModule
   ],
   exports: [
     HeaderComponent,

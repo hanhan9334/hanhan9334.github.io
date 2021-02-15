@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "ninjia-test"
+    "default": "ninjia-test",
+    "staging": "han-portfolio"
   }
 }
